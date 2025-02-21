@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    text-align: center;
+    background: linear-gradient(orange 10%, yellow 100%);
+    height: 100vh;
+}
+
+header {
+    background-color: orange;
+    height: auto;
+    padding: 1% 0;
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: stretch;
+    align-items: center;
+}
+
+#logo img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 40%;
+    margin-left: 3%;
+    position: relative;
+    left: 33%;
+}
+
+
+#link-header {
+    display: flex;
+    justify-content: start;
+    top: 1%;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+#link-header a {
+    font-size: 20px;
+    font-family: cursive;   
+    padding: 5px 8px;
+    border-bottom: 2px solid black;
+    transition: all 0.5s;
+    border-radius: 4px 4px 0 0 ;
+}
+
+#link-header a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* Parte  quue configura o inicio (que que deixei o comentario nao é chat gpt professor */
+
+#titulo{
+    font-size: 35px;
+    margin-top: 2%;
+    font-family: cursive;
+}
+
+#inicio{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+#links{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#links a{
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    margin: 3%;
+    padding: 6%;
+    border-radius: 4px 4px 0 0;
+}
+
+#links a:hover{
+    border-bottom: 2px solid black;
+    background-color: black;
+    color: white;
+
+}
