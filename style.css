@@ -4,6 +4,7 @@
 }
 
 body { 
+    overflow: hidden;
     text-align: center;
     background-color: #0f0e17; 
     color: #fffffe; 
@@ -15,7 +16,7 @@ header {
     height: auto;
     padding: 1% 0;
     display: flex;
-    border-bottom: 1px solid #fffffe;
+    border-bottom: 1px solid #fffffe8a;
     justify-content: space-between;
     align-items: center;
 }
@@ -66,11 +67,29 @@ header {
 
 #seçao{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
     padding: 4%;
-    border-bottom: 1px solid #fffffe;
+}
+
+#container{
+    display: flex;
+    border: 1px solid rgba(153, 145, 145, 0.623);
+    flex-direction: column;
+    width: 90%;
+    border-radius: 13px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 4%;
+}
+
+#title{
+    margin-bottom: 2%;
+    font-size: 60px;
+    text-decoration: underline;
 }
 
 
@@ -84,7 +103,6 @@ header {
 
 #links a{
     font-size: 20px;
-    border-bottom: 2px solid rgb(0, 0, 0);
     margin: 3%;
     width: auto;
     padding: 3%;
@@ -97,6 +115,23 @@ header {
 }
 
 #links a:hover{
-    border-bottom: 2px solid rgb(255, 255, 255);
     background-color: #f25f4c;
+}
+
+#aulas{
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+video{
+    border-radius: 10px;
+    border: 1px solid white ;
+}
+
+#exercicio{
+    margin-top: 3%;
+    font-size: 40px;
+    font-family: cursive;
 }
